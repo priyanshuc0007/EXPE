@@ -1,3 +1,5 @@
+import sys
+import pysqlite3
 import os
 import streamlit as st
 from PyPDF2 import PdfReader
@@ -7,6 +9,8 @@ from langchain.vectorstores import Chroma
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationalRetrievalChain
 from dotenv import load_dotenv
+
+sys.modules['sqlite3'] = pysqlite3
 
 # Load environment variables
 load_dotenv()

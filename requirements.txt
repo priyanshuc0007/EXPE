@@ -8,3 +8,4 @@ langchain_groq
 langchain-community
 streamlit
 langchain-google-genai
+pysqlite3-binary
