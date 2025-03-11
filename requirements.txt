@@ -1,0 +1,10 @@
+PyPDF2
+langchain
+sentence-transformers
+chromadb
+gradio
+python-dotenv
+langchain_groq
+langchain-community
+streamlit
+langchain-google-genai
